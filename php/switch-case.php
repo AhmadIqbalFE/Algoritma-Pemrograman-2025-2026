@@ -1,0 +1,23 @@
+<?php
+$hari = 3;
+
+switch ($hari) {
+    case 1:
+        echo "Hari Senin";
+        break;
+    case 2:
+        echo "Hari Selasa";
+        break;
+    case 3:
+        echo "Hari Rabu";
+        break;
+    case 4:
+        echo "Hari Kamis";
+        break;
+    case 5:
+        echo "Hari Jumat";
+        break;
+    default:
+        echo "Hari tidak valid";
+}
+?>
